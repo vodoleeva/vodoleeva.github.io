@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 h1 {
@@ -15,8 +16,20 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 28px;
+    margin: 1rem 0;
+}
+
 a {
-    color: darkorange;
+    color: darkred;
+    text-decoration: none;
+    border-bottom: 1px solid darkred;
+    font-size: smaller;
 }
 
 img {
@@ -24,19 +37,54 @@ img {
     max-width: 800px;
     max-height: 800px;
     object-fit: cover;
+    border-radius: 5px;
 }
 
+p {
+    font-size: 18px;
+}
 
+ul {
+    padding: 0;
+    list-style-type: none;
+}
 
+li {
+    padding-bottom: 1rem;
+    list-style-type: none;
+    margin: 0;
+}
+
+li:not(:last-child):after {
+    padding-bottom: 0;
+}
+
+.padding {
+    margin: 1rem;
+}
 
 .content {
     width: 100%;
     max-width: 800px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.date {
+    font-style: italic;
+}
+
+.day-plan {
+    background-color: linen;
+    border-radius: 10px;
+    padding: 0.3rem 1rem;
+    margin: 1rem 0.3rem;
+}
+
+.day-plan:nth-child(odd) {
+    background-color: ghostwhite;
 }
 
 
-@media (min-width:480px) {
-    .content {
-        margin-left: 10rem;
-    }
-}
+
+
