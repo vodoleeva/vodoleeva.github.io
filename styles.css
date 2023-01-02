@@ -97,6 +97,7 @@ li:not(:last-child):after {
     font-size: 20px;
     font-style: italic;
     border-radius: 3px;
+    text-overflow: none;
 }
 
 .date {
