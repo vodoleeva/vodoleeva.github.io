@@ -6,7 +6,8 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    background-image: linear-gradient(maroon, white, #87CEEB);
+    background: rgb(128,0,0);
+    background: linear-gradient(rgba(128,0,0,1) 0%, rgb(255, 166, 0) 15%, rgb(235, 235, 235) 20%);
 }
 
 h1 {
@@ -43,7 +44,7 @@ h4 {
 }
 
 a {
-    color: black;
+    color: darkred;
     text-decoration: none;
     border-bottom: 1px solid darkred;
     font-size: smaller;
@@ -69,7 +70,7 @@ ul {
 
 li {
     padding-bottom: 1rem;
-    list-style-type: none;
+    /* list-style-type: none; */
     margin: 0;
 }
 
@@ -102,8 +103,8 @@ li:not(:last-child):after {
     font-style: italic;
 }
 
-.day-plan {
-    background-color: linen;
+.card {
+    background-color: white;
     border-radius: 6px;
     padding: 0.3rem 1rem;
     margin: 1rem 0.3rem;
